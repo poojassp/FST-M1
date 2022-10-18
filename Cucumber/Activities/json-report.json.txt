@@ -1,0 +1,190 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Opening a webpage using Selenium",
+        "description": "",
+        "id": "first-test;opening-a-webpage-using-selenium",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12167851400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Google Home Page",
+            "match": {
+              "location": "GoogleSearchSteps.userIsOnGooglePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369962100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types in Cheese and hits ENTER",
+            "match": {
+              "location": "GoogleSearchSteps.userTypesInCheeseAndHitsENTER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1831477900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Show how many search results were shown",
+            "match": {
+              "location": "GoogleSearchSteps.showHowManySearchResultsWereShown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1572715900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "GoogleSearchSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "First Test",
+    "description": "",
+    "id": "first-test",
+    "keyword": "Feature",
+    "uri": "Activity1_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@activity1_1"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Test for Simple Alert",
+        "description": "",
+        "id": "testing-with-tags;test-for-simple-alert",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14591872200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the page",
+            "match": {
+              "location": "AlertTestSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224515600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks the Simple Alert button",
+            "match": {
+              "location": "AlertTestSteps.openSimpleAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22840000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Alert opens",
+            "match": {
+              "location": "AlertTestSteps.switchFocus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14452500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Read the text from it and print it",
+            "match": {
+              "location": "AlertTestSteps.readAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59056200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the alert",
+            "match": {
+              "location": "AlertTestSteps.closeAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1484991900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close Browser",
+            "match": {
+              "location": "AlertTestSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SimpleAlert"
+          },
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Testing with Tags",
+    "description": "",
+    "id": "testing-with-tags",
+    "keyword": "Feature",
+    "uri": "Activity1_3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@activity1_3"
+      }
+    ]
+  }
+]
